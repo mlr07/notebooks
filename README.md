@@ -1,4 +1,4 @@
-# notebooks
+# Notebooks
 
 Various notebooks exploring ML topics.
 
