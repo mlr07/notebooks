@@ -65,7 +65,7 @@ http.mount('http://', adapter)
 r = http.get('https://en.wikipedia.org/w/api.php')
 print(r.status_code)
 
-# # combine with timeout class
+# combine with timeout class
 retries = Retry(total=3, backoff_factor=1, status_forcelist=[429, 500, 502, 503, 504])
 http.mount("https://", TimeoutHTTPAdapter(max_retries=retries))
 
