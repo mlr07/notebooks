@@ -1,6 +1,6 @@
 # Notebooks
 
-Notebooks exploring range of ML, EDA, and programming topics.
+Notebooks exploring a range of ML, EDA, and programming topics.
 
 Topics based on self study, interest, and work requirements.
 
